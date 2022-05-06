@@ -1,0 +1,55 @@
+*{margin: 0;padding: 0;}
+
+.pagebody
+{
+    border: 2px solid black;
+    height: 60vh;
+    width: 40vw;
+    max-width: 950px;
+    background-color: thistle;
+    margin: 2vh auto;
+}
+
+.message {
+    background-color: aliceblue;
+    width: 10vw;
+    margin: 20px 11px;
+    border: 2px solid black;
+    padding: 6px 11px;
+    border-radius: 7px;
+    clear: both;
+  }
+.right{
+    float : right ;
+    clear: both;
+}
+
+.left{
+    float: left ;
+    clear : both ;
+}
+
+.send-container
+{
+    width: 40vw;
+    padding: 5px;
+    margin: auto;
+}
+
+#messageInp
+{
+    height: 4vh;
+    border: 2px solid black;
+    width: 35vw;
+    padding: 5px;
+    overflow-y: auto;
+    margin-bottom: 24px;
+}
+
+.btn
+{
+    padding: 8px;
+    background-color: rgb(56, 170, 232);
+    color: bisque;
+    border-radius: 6px;
+}
