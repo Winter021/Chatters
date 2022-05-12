@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000', { transports : ['websocket'] });
+const socket = io('https://winter021.github.io/Chatters/', { transports : ['websocket'] });
 
 
 
