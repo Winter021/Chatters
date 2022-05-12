@@ -1,15 +1,18 @@
 *{margin: 0;padding: 0;}
 
-.pagebody
-{
+.container {
     border: 2px solid black;
-    height: 60vh;
-    width: 40vw;
+    height: 549px;
     max-width: 950px;
-    background-color: thistle;
-    margin: 2vh auto;
-}
-
+    background-color: #252525;
+    overflow: scroll;
+    background-image: url('/Chatters_background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 34px auto;
+    background-position: center;
+    width: 87%;
+  }
 .message {
     background-color: aliceblue;
     width: 10vw;
@@ -29,13 +32,13 @@
     clear : both ;
 }
 
-.send-container
-{
-    width: 40vw;
+.send-container {
+    min-width: 291px;
     padding: 5px;
-    margin: auto;
-}
-
+    margin: auto 30%;
+    height: 60px;
+    width: 60%;
+  }
 #messageInp
 {
     height: 4vh;
@@ -52,4 +55,25 @@
     background-color: rgb(56, 170, 232);
     color: bisque;
     border-radius: 6px;
+    margin: 8px;
 }
+
+body
+{
+    background-color: aliceblue;
+    
+ 
+}
+
+.container img
+{
+    height: 20vh;
+    width: 20vw;
+    
+}
+
+nav h1 {
+    position: relative;
+    left: 40%;
+    top: 18px;
+  }

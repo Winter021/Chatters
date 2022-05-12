@@ -16,9 +16,16 @@ io.on('connection' , socket =>
         socket.broadcast.emit('user-joined' , name ); 
     })
 
+    // const message = messageInput.Value ;
     socket.on('send' , message =>{
-        socket.broadcast.emit('receive',{message , name : users[socket.id]}); 
+        socket.broadcast.emit('receive',{message, name : users[socket.id]}); 
     })
+
+    socket.on('disconnect' , message =>{
+        socket.broadcast.emit('leave', users[socket.id] ); 
+        delete users[socket.id];
+    })
+
 })
 // A node server which will handle socket.io connections
 
