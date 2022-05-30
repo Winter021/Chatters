@@ -7,7 +7,7 @@ const socket = io('http://localhost:8000', { transports : ['websocket'] });
 
 const messageInput = document.getElementById('messageInp');
 
-var audio = new Audio('ting.mp3')
+var audio = new Audio('Sounds/ting.mp3')
 
 const messageContainer = document.querySelector(".container");
 

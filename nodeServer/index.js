@@ -9,9 +9,13 @@ io.on('connection' , socket =>
    
     
     socket.on('new-user-joined' , name =>{
-       
+    
         console.log("New User : ",name)
-        
+        // adding new user
+        // const usernameblock = document.createElement('ul');
+        // usernameblock.innerText = name ;
+        // username.append(usernameblock);
+
         users[socket.id] = name ;
         socket.broadcast.emit('user-joined' , name ); 
     })

@@ -2,19 +2,22 @@
 
 .container {
     border: 2px solid black;
+    border-radius: 10px;
     height: 549px;
     max-width: 950px;
-    background-color: #252525;
+    /* background-color: #252525; */
     overflow: scroll;
-    background-image: url('/Chatters_background.png');
+    /* background-image: url('/pink-chat-bubble-with-three-white-dots-pastel-gradient-color-background-creative-3d-vector-illustration_228967-30.jpg'); */
+    background-image: url('/Images/christmas_2012_new_6681.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin: 34px auto;
     background-position: center;
     width: 87%;
+    background-color: aliceblue;
   }
 .message {
-    background-color: aliceblue;
+    background-color: rgb(204, 171, 227);
     width: 10vw;
     margin: 20px 11px;
     border: 2px solid black;
@@ -60,8 +63,9 @@
 
 body
 {
-    background-color: aliceblue;
-    
+    background-color: lavender;
+    overflow-y: hidden; 
+    overflow-x: hidden;   
  
 }
 
@@ -77,3 +81,23 @@ nav h1 {
     left: 40%;
     top: 18px;
   }
+
+
+
+  /* scroll bar */
+
+  /* Scrollbar styling */
+  .container {
+    scrollbar-width: thin;
+    scrollbar-color: darkgrey lavender;
+    overflow-x: hidden;
+  }
+  
+
+  
+  
+  
+
+
+
+/* End scrollbar styling*/
